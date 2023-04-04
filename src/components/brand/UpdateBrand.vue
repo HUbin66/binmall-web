@@ -1,7 +1,7 @@
 <template>
   <BaseCard>
-    <div class="col-3"></div>
-    <div class="col-6">
+    <div class="col-2"></div>
+    <div class="col-8">
       <ProBraCatNavbar />
       <BaseCard>
         <div class="add_text text-start">修改商品</div>
@@ -54,7 +54,7 @@
 
           <!-- 快速展示 -->
           <div class="exhibition">
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-3">
                 <div class="exhibition_text text-start">是否快速展示：</div>
               </div>
@@ -80,7 +80,7 @@
               </div>
               <div class="col-2"></div>
               <div class="col-6"></div>
-            </div>
+            </div> -->
 
             <!-- <span class="mb-3 form-check">
               <input
@@ -96,7 +96,7 @@
         </div>
       </BaseCard>
     </div>
-    <div class="col-3"></div>
+    <div class="col-2"></div>
   </BaseCard>
 </template>
   

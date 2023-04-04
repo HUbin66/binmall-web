@@ -1,7 +1,11 @@
 <template>
   <BaseCard>
-    <ProBraCatNavbar />
-    <div class="tips">暂定应为删除品牌可能会删除旗下所有产品</div>
+    <div class="col-2"></div>
+    <div class="col-8">
+      <ProBraCatNavbar />
+      <div class="tips">暂定应为删除品牌可能会删除旗下所有产品</div>
+    </div>
+    <div class="col-2"></div>
   </BaseCard>
 </template>
   
@@ -34,7 +38,7 @@ export default {
   
   <style scoped>
 .tips {
-  font-size: 100px;
+  font-size: 50px;
 }
 .btn {
   zoom: 150%;

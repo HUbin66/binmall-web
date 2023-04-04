@@ -1,7 +1,7 @@
 <template>
   <BaseCard>
-    <div class="col-3"></div>
-    <div class="col-6">
+    <div class="col-2"></div>
+    <div class="col-8">
       <ProBraCatNavbar />
       <BaseCard>
         <div class="add_text text-start">删除种类</div>
@@ -147,7 +147,7 @@
         </div>
       </BaseCard>
     </div>
-    <div class="col-3"></div>
+    <div class="col-2"></div>
   </BaseCard>
 </template>
   
